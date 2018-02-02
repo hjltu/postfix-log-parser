@@ -117,7 +117,7 @@ class Mail:
 		# find last csv
 		files=glob.glob('*.csv')
 		files.sort(key=os.path.getmtime)
-		print 'read ',files[-1]
+		print 'reading ',files[-1],' ...'
 
 		stat_list=[]
 
